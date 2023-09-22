@@ -5,7 +5,7 @@ function repeatHello(callback){
       }, 1000);
     
       setTimeout(() => {
-        clearInterval(intervalId);
+        clearInterval(interval);
       }, 5000);
     }
     
